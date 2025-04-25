@@ -1,0 +1,162 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f1f8;
+  color: #4a3c79;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6a4c9c;
+  color: white;
+  padding: 30px 0;
+  border-bottom: 5px solid #5c3b8d;
+}
+
+header img {
+  border: 5px solid #ffffff;
+  margin-bottom: 15px;
+}
+
+header p.lead {
+  font-size: 1.2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+main {
+  padding: 50px 15px;
+}
+
+h2 {
+  color: #6a4c9c;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.card {
+  border: 2px solid #6a4c9c;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  border-bottom: 2px solid #6a4c9c;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6a4c9c;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #4a3c79;
+  margin-bottom: 20px;
+}
+
+.card .btn-link {
+  color: #6a4c9c;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.card .btn-link:hover {
+  color: #4a3c79;
+}
+
+
+.modal-content {
+  border-radius: 10px;
+  border: 2px solid #6a4c9c;
+}
+
+.modal-header {
+  background-color: #6a4c9c;
+  color: white;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-footer {
+  padding: 20px;
+  background-color: #f3f1f8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.modal-body p {
+  font-size: 1rem;
+  color: #4a3c79;
+  line-height: 1.6;
+}
+
+.modal-body img {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.btn-close {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+
+.btn-link {
+  color: #6a4c9c;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.btn-link:hover {
+  color: #4a3c79;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+      margin-bottom: 20px;
+  }
+
+  .card-title {
+      font-size: 1.2rem;
+  }
+
+  .card-text {
+      font-size: 0.9rem;
+  }
+}
